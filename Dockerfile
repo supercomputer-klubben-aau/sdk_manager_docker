@@ -46,6 +46,7 @@ RUN yes | unminimize && \
         qemu-user-static \
         binfmt-support \
         libxshmfence1 \
+        unzip \
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
